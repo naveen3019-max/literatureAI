@@ -1,28 +1,4 @@
-﻿# Python
+# Python
 __pycache__/
-*.py[cod]
-*.pyo
-*.pyd
-.Python
-*.egg
-*.egg-info/
-dist/
-build/
-*.so
-
-# Virtual environment
 venv/
-env/
-.venv/
-
-# Environment variables â€” NEVER commit real keys
-
-# IDE
-.vscode/
-.idea/
-
-# Logs
-*.log
-
-# Test scripts
-test_llm.py
+.env
