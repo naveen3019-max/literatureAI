@@ -1,4 +1,4 @@
-# Python
+﻿# Python
 __pycache__/
 *.py[cod]
 *.pyo
@@ -15,8 +15,7 @@ venv/
 env/
 .venv/
 
-# Environment variables — NEVER commit real keys
-.env
+# Environment variables â€” NEVER commit real keys
 
 # IDE
 .vscode/
