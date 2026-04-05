@@ -28,7 +28,7 @@ if FRONTEND_URL:
 
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["*"],   # permissive for now; tighten to 'origins' after first deploy
+    allow_origins=origins,   # permissive for now; tighten to 'origins' after first deploy
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
